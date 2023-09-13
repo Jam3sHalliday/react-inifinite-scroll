@@ -1,11 +1,6 @@
 import React from "react";
-import { Product } from "../../../interfaces/product";
 import ProductItem from "../item";
-
-type ProductListProps = {
-    products: Product[]
-    ref: React.MutableRefObject<HTMLDivElement | null>
-}
+import { ProductListProps } from "../../../interfaces/product";
 
 const ProductList = React.forwardRef<
     HTMLDivElement,

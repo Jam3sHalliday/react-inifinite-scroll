@@ -1,8 +1,4 @@
-import { Product } from "../../../interfaces/product"
-
-type ProductItemProps = {
-    product: Product
-}
+import { ProductItemProps } from "../../../interfaces/product";
 
 export default function ProductItem({ product }: ProductItemProps) {
     return (

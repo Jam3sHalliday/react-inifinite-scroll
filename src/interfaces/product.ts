@@ -24,3 +24,11 @@ export type SearchProductParams = {
     page: number
     limit: number
 }
+
+export type ProductListProps = {
+    products: Product[]
+    ref: React.MutableRefObject<HTMLDivElement | null>
+}
+export type ProductItemProps = {
+    product: Product
+}
